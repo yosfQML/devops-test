@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("test/test")
+        app = docker.build("yosfqml/yosfqml")
     }
 
     stage('Test image') {
